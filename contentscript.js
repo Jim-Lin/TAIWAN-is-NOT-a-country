@@ -9,7 +9,7 @@ head.appendChild(style);
 function replace(element) {
     element.innerHTML = element.innerHTML
     .replace(/(\bTW\b|\bTAIWAN\b)(?!([^<]+)?>)/ig, '<span class="ROCsuck">ROC</span>')
-    .replace(/(台灣|臺灣)/g, '<span class="ROCsuck">中華民國</span>');
+    .replace(/(台灣|臺灣)(?!([^<]+)?>)/g, '<span class="ROCsuck">中華民國</span>');
 }
 
 document.querySelectorAll("p").forEach(replace);
