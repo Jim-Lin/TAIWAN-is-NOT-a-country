@@ -3,7 +3,7 @@
   "name": "TAIWAN is NOT a country",
   "version": "0.1",
 
-  "description": "to recognize as a country or to be a CHINESE",
+  "description": "to build a country or to be a CHINESE",
   "icons": {
   },
 
@@ -18,7 +18,8 @@
         "https://*.udn.com/*",
         "http://*.chinatimes.com/*",
         "http://*.ltn.com.tw/*",
-        "https://*.appledaily.com/*"
+        "https://*.appledaily.com/*",
+        "https://tw.news.yahoo.com/*"
       ],
       "js": ["contentscript.js"]
     }
