@@ -1,7 +1,7 @@
-- Chrome Extension: https://chrome.google.com/webstore/...
+- Chrome Extension: https://chrome.google.com/webstore/detail/taiwan-is-not-a-country/ffndaahahiifnejoaffonjohlofhbhon
 
-### before
+## before
 ![before](before.png?raw=true)
 
-### after
+## after
 ![after](after.png?raw=true)
