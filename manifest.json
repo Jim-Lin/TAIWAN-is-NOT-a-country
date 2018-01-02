@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "TAIWAN is NOT a country",
-  "version": "0.1",
+  "name": "News Transformer",
+  "version": "0.3",
 
-  "description": "to build a country or to be a CHINESE",
+  "description": "transform text from TAIWAN to ROC in news",
   "icons": {
   },
 

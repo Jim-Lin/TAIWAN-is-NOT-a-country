@@ -1,4 +1,4 @@
-var css = '.ROCsuck { color: blue; font-weight: bold; text-decoration: underline; }',
+var css = '.NewsTransformer { color: blue; font-weight: bold; text-decoration: underline; }',
     head = document.head || document.getElementsByTagName('head')[0],
     style = document.createElement('style');
 
@@ -8,8 +8,8 @@ head.appendChild(style);
 
 function replace(element) {
     element.innerHTML = element.innerHTML
-    .replace(/(\bTW\b|\bTAIWAN\b)(?!([^<]+)?>)/ig, '<span class="ROCsuck">ROC</span>')
-    .replace(/(台灣|臺灣)(?!([^<]+)?>)/g, '<span class="ROCsuck">中華民國</span>');
+    .replace(/(\bTW\b|\bTAIWAN\b)(?!([^<]+)?>)/ig, '<span class="NewsTransformer">ROC</span>')
+    .replace(/(台灣|臺灣)(?!([^<]+)?>)/g, '<span class="NewsTransformer">中華民國</span>');
 }
 
 document.querySelectorAll("p").forEach(replace);
